@@ -1018,6 +1018,22 @@ body {
     border: 4px solid var(--warm-brown);
     box-shadow: var(--romantic-glow), var(--soft-shadow);
 }
+/* ADDING BACKGROUND IMAGE TO FRONT COVER ONLY */
+.front-cover {
+    /* 1. REPLACE 'path/to/your/cover.jpg' with the actual file path. 
+       Example if image is in an 'images' folder: url('../images/cover.jpg') 
+    */
+    background: url('teddycoverpage.png') !important; 
+    
+    /* 2. Style the image to cover the entire area */
+    background-size: cover !important;       
+    
+    /* 3. Prevent the image from repeating */
+    background-repeat: no-repeat !important; 
+    
+    /* 4. Center the image on the cover */
+    background-position: center !important;  
+}
 /* --- New Page-Specific Background Images --- */
 
 /* Page 1 (Front Cover) */
