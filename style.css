@@ -1059,6 +1059,65 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
+/* --- Background Images for Specific Inner Pages --- */
+/* Back Cover */
+.back-cover {
+    background-image: url('enddd.png') !important; 
+    background-size: cover !important;       
+    background-repeat: no-repeat !important; 
+    background-position: center !important;  
+}
+
+/* Page 5 */
+.page[data-page="4"] {
+    background-image: url('pagee5.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Page 7 */
+.page[data-page="6"] {
+    background-image: url('pagee7.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Page 8 */
+.page[data-page="7"] {
+    background-image: url('pagee8.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Page 11 */
+.page[data-page="10"] {
+    background-image: url('pagee11.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Page 13 */
+.page[data-page="12"] {
+    background-image: url('pagee13.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Page 14 */
+.page[data-page="13"] {
+    background-image: url('pagee14.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* ------------------------------------------------ */
 /* ------------------------------------------- */ 
 }
 .front-cover .page-content, .back-cover .page-content {
