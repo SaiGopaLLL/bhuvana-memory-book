@@ -1023,7 +1023,7 @@ body {
     /* 1. REPLACE 'path/to/your/cover.jpg' with the actual file path. 
        Example if image is in an 'images' folder: url('../images/cover.jpg') 
     */
-    background: url('teddycoverpage.jpg') !important; 
+    background: url('coverteddy.jpg') !important; 
     
     /* 2. Style the image to cover the entire area */
     background-size: cover !important;       
