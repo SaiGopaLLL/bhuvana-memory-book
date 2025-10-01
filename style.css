@@ -1018,7 +1018,21 @@ body {
     border: 4px solid var(--warm-brown);
     box-shadow: var(--romantic-glow), var(--soft-shadow);
 }
-
+.front-cover {
+    /* 1. REPLACE 'path/to/your/cover.jpg' with the actual file path. 
+       Example: url('../images/my-cover.jpg') 
+    */
+    background: url('teddycoverpage.jpg') !important; 
+    
+    /* 2. Style the image to cover the entire area */
+    background-size: cover !important;       
+    
+    /* 3. Prevent the image from repeating */
+    background-repeat: no-repeat !important; 
+    
+    /* 4. Center the image on the cover */
+    background-position: center !important;  
+}
 .front-cover .page-content, .back-cover .page-content {
     background: none;
     padding: 40px;
