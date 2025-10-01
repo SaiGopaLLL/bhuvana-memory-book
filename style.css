@@ -1023,7 +1023,7 @@ body {
     /* 1. REPLACE 'path/to/your/cover.jpg' with the actual file path. 
        Example if image is in an 'images' folder: url('../images/cover.jpg') 
     */
-    background: url('teddycoverpage.png') !important; 
+    background: url('teddycoverpagenew.jpg') !important; 
     
     /* 2. Style the image to cover the entire area */
     background-size: cover !important;       
@@ -1035,14 +1035,6 @@ body {
     background-position: center !important;  
 }
 /* --- New Page-Specific Background Images --- */
-
-/* Page 1 (Front Cover) */
-.page[data-page="0"] {
-    background-image: url('teddycoverpage.png') !important; 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
 /* Page 2 */
 .page[data-page="1"] {
