@@ -1077,7 +1077,7 @@ body {
 }
 
 /* Page 7 */
-.page[data-page="6"] {
+.page[data-page="7"] {
     background-image: url('pagee7.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -1085,7 +1085,7 @@ body {
 }
 
 /* Page 8 */
-.page[data-page="7"] {
+.page[data-page="8"] {
     background-image: url('pagee8.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -1101,7 +1101,7 @@ body {
 }
 
 /* Page 13 */
-.page[data-page="12"] {
+.page[data-page="13"] {
     background-image: url('pagee13.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -1109,7 +1109,7 @@ body {
 }
 
 /* Page 14 */
-.page[data-page="13"] {
+.page[data-page="14"] {
     background-image: url('pagee14.png');
     background-size: cover;
     background-repeat: no-repeat;
